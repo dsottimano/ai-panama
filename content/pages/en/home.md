@@ -18,7 +18,7 @@ write your content directly. The address is this site's own, with <code>/api/mcp
 on the end:</p>
 <p><code>https://your-site-address/api/mcp</code></p>
 <p>The first time you connect, you will be asked to sign in with GitHub. Approve as the
-account that owns this site — that is how the site knows it is you, and it is the only
+account that owns this site. That is how the site knows it is you, and it is the only
 password involved.</p>
 
 <h3>Claude</h3>
@@ -40,7 +40,7 @@ password involved.</p>
 
 <h2>Then ask for the site you want</h2>
 <p>Describe the business, not the software. <em>"I run a violin repair shop in Toronto. I
-want a page for each service I offer — with the price and how long it takes — and a page
+want a page for each service I offer, with the price and how long it takes, and a page
 listing them all."</em> The assistant works out what content types the site needs, writes
 the page templates, creates the URLs and fills them in.</p>
 <p>Everything it does lands on a <strong>draft</strong> copy of your site, so you can look
