@@ -1,45 +1,41 @@
 ---
-title: "Home"
+title: Panama Padel Supply
 draft: false
-template: "landing"
+template: landing
+preset: landing
+seo:
+  title: Panama Padel Supply — Gear for the Fast Game
+  description: Brutalist padel shop in Panama City. Curated rackets, balls and gear with local delivery.
 ---
 
-<h1>Your site is live</h1>
-<p>This page is a plain file in your own GitHub repository. You can edit it by hand at
-<code>/admin</code> — or you can connect an AI assistant and simply tell it what you
-want the site to be.</p>
-
-<h2>Connect an assistant</h2>
-<p>This site speaks <strong>MCP</strong>, so any assistant that supports it can read and
-write your content directly. The address is this site's own, with <code>/api/mcp</code>
-on the end:</p>
-<p><code>https://your-site-address/api/mcp</code></p>
-<p>The first time you connect, you will be asked to sign in with GitHub. Approve as the
-account that owns this site — that is how the site knows it is you, and it is the only
-password involved.</p>
-
-<h3>Claude</h3>
-<ol>
-  <li>Settings → Connectors → add a custom connector</li>
-  <li>Paste the address above</li>
-  <li>Approve the GitHub sign-in</li>
-</ol>
-
-<h3>ChatGPT</h3>
-<ol>
-  <li>Settings → Connectors → create a custom connector</li>
-  <li>Paste the address above</li>
-  <li>Approve the GitHub sign-in</li>
-</ol>
-
-<h3>Claude Code</h3>
-<p><code>claude mcp add --transport http lanza https://your-site-address/api/mcp</code></p>
-
-<h2>Then ask for the site you want</h2>
-<p>Describe the business, not the software. <em>"I run a violin repair shop in Toronto. I
-want a page for each service I offer — with the price and how long it takes — and a page
-listing them all."</em> The assistant works out what content types the site needs, writes
-the page templates, creates the URLs and fills them in.</p>
-<p>Everything it does lands on a <strong>draft</strong> copy of your site, so you can look
-at the whole change before anyone else can. Nothing is public until you press Publish, and
-one button in <code>/admin</code> throws the whole draft away if you don't like it.</p>
+<section class="pz-hero" id="home">
+  <div class="pz-hero-copy">
+    <div>
+      <span class="pz-kicker">Panamá juega padel</span>
+      <h1 class="pz-title">Hit<br><span>Hard.</span><br>Play<br>Local.</h1>
+      <p class="pz-lead">Rackets, balls and court gear built for the heat, speed and energy of Panama.</p>
+    </div>
+    <div class="pz-actions"><a class="pz-btn pz-btn-red" href="#shop">Shop the drop</a><a class="pz-btn pz-btn-blue" href="#contact">Find us</a></div>
+  </div>
+  <div class="pz-court" aria-label="Abstract padel court illustration"><span class="pz-ball"></span><span class="pz-racket"></span></div>
+</section>
+<div class="pz-ticker"><span>Free delivery over $75</span><span>Panama City pickup</span><span>Test before you buy</span><span>Built for the tropics</span></div>
+<section class="pz-section" id="shop">
+  <span class="pz-kicker">The first drop / 2026</span>
+  <h2>Gear with<br>no soft edges.</h2>
+  <div class="pz-products">
+    <article class="pz-card"><div class="pz-product-art">01</div><div><h3>Canal Control</h3><p>Round shape. Huge sweet spot. For players who place every shot.</p><span class="pz-price">$189</span></div></article>
+    <article class="pz-card"><div class="pz-product-art">02</div><div><h3>Diablo Power</h3><p>Diamond profile. Carbon face. Maximum force at the net.</p><span class="pz-price">$229</span></div></article>
+    <article class="pz-card"><div class="pz-product-art">03</div><div><h3>City Ball ×3</h3><p>Fast, durable tournament balls made for humid conditions.</p><span class="pz-price">$12</span></div></article>
+  </div>
+</section>
+<section class="pz-section pz-about" id="about">
+  <div class="pz-about-copy"><span class="pz-kicker">Born in Panama</span><h2>Not a country club.</h2><p>We are a padel shop for people who play loud, sweat hard and stay for one more set.</p></div>
+  <div><h2>Why us?</h2><ul class="pz-list"><li>Curated rackets, not endless shelves</li><li>Local advice from active players</li><li>Same-day Panama City delivery</li><li>Demo rackets available in store</li></ul></div>
+</section>
+<section class="pz-section pz-contact" id="contact">
+  <span class="pz-kicker">Come hit something</span>
+  <h2>Ready for your next racket?</h2>
+  <p>Via Argentina, Panama City · Mon–Sat, 10:00–19:00</p>
+  <div class="pz-actions" style="justify-content:center"><a class="pz-btn" href="https://wa.me/50760000000">WhatsApp the shop</a></div>
+</section>

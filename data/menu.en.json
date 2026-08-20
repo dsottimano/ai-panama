@@ -1,6 +1,27 @@
 {
   "locations": {
-    "header": { "desktop": [{ "label": "Blog", "url": "/posts" }], "tablet": null, "mobile": null },
-    "footer": { "desktop": [], "tablet": null, "mobile": null }
+    "header": {
+      "tablet": null,
+      "mobile": null,
+      "desktop": [
+        {
+          "label": "Shop",
+          "url": "#shop"
+        },
+        {
+          "label": "About",
+          "url": "#about"
+        },
+        {
+          "label": "Visit",
+          "url": "#contact"
+        }
+      ]
+    },
+    "footer": {
+      "tablet": null,
+      "mobile": null,
+      "desktop": []
+    }
   }
 }
