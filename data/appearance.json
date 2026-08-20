@@ -1,1 +1,21 @@
-{ "theme": "freehold", "logo": "" }
+{
+  "theme": "freehold",
+  "logo": "",
+  "brand": {
+    "colors": {
+      "bg": "#f4f0e8",
+      "surface": "#ffffff",
+      "ink": "#080808",
+      "muted": "#565656",
+      "accent": "#ff2a1a",
+      "border": "#080808"
+    },
+    "radius": "0px",
+    "fonts": {
+      "heading": "space-grotesk",
+      "body": "inter"
+    },
+    "scheme": "light",
+    "motion": "on"
+  }
+}
