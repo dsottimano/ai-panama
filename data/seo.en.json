@@ -1,8 +1,8 @@
 {
-  "siteName": "My Site",
-  "titleTemplate": "%s \u00b7 My Site",
-  "defaultTitle": "My Site",
-  "defaultDescription": "A personal site.",
+  "siteName": "Panama Padel Supply",
+  "titleTemplate": "%s · Panama Padel Supply",
+  "defaultTitle": "Panama Padel Supply",
+  "defaultDescription": "Brutalist padel shop in Panama City. Curated rackets, balls and gear with local delivery.",
   "defaultOgImage": "",
   "locale": "en_US",
   "twitter": "",
